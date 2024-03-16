@@ -1,0 +1,11 @@
+name: Discord Notification
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  PR:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, World!"
